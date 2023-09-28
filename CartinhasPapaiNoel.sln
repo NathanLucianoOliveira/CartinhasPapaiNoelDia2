@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartinhasPapaiNoel", "CartinhasPapaiNoel\CartinhasPapaiNoel.csproj", "{59A72CE0-43D7-4C04-ABF1-70BD3F484167}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Domain", "01 - Domain", "{80391BF4-AFB8-4B76-B269-E2E67B1C7EC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartinhasDoPapaiNoel.Domain", "Source\CartinhasDoPapaiNoel\CartinhasDoPapaiNoel.Domain.csproj", "{913F85E3-5A80-48C8-B569-526DE61EB9F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Data", "02 - Data", "{CD4BAC64-668C-4C25-BA64-773E4B6DDD80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartasDoPapaiNoel.Data", "Source\CartasDoPapaiNoel.Data\CartasDoPapaiNoel.Data.csproj", "{6C2FCE86-A71D-463C-8477-4ED48E5321C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Application", "03 - Application", "{9B7BBE73-D2D1-4178-B096-6FD2B34CE9A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Api", "04 - Api", "{265EBD6C-9735-4BA4-A156-1DF2697D0646}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartasDoPapaiNoel.Application", "Source\CartasDoPapaiNoel.Application\CartasDoPapaiNoel.Application.csproj", "{256A4843-21C8-4A42-8BA0-3E32C8F0C0C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartasDoPapaiNoel.API", "Source\CartasDoPapaiNoel.API\CartasDoPapaiNoel.API.csproj", "{5E731932-E89E-4803-8134-E52DCDD9899D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entidades", "Entidades", "{60EA690D-EFFB-48BA-83CB-3EE9FF687490}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{4C44F220-7742-452C-AEFD-7EA5B1DE83B2}"
+	ProjectSection(SolutionItems) = preProject
+		CartinhasPapaiNoel\Models\Carta.cs = CartinhasPapaiNoel\Models\Carta.cs
+		CartinhasPapaiNoel\Controllers\CartinhasPapaiNoel.cs = CartinhasPapaiNoel\Controllers\CartinhasPapaiNoel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{48940587-88D7-4302-ABFD-0408486E5C92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoMapper", "AutoMapper", "{09F2666F-5C1F-465F-9811-8834C3A2AF58}"
+	ProjectSection(SolutionItems) = preProject
+		ApplicationToDomain.cs = ApplicationToDomain.cs
+		DomainToApplication.cs = DomainToApplication.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{6BB3552A-9D46-45D9-8452-8BDC34514335}"
+	ProjectSection(SolutionItems) = preProject
+		IObterTodosAsCartas.cs = IObterTodosAsCartas.cs
+		IRegistroCartas.cs = IRegistroCartas.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicos", "Servicos", "{155759C3-6327-4739-8EB5-2D3144559C14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModels", "ViewModels", "{A946E458-A436-4FDD-9353-2584F7D6BC71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59A72CE0-43D7-4C04-ABF1-70BD3F484167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A72CE0-43D7-4C04-ABF1-70BD3F484167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A72CE0-43D7-4C04-ABF1-70BD3F484167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A72CE0-43D7-4C04-ABF1-70BD3F484167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{913F85E3-5A80-48C8-B569-526DE61EB9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{913F85E3-5A80-48C8-B569-526DE61EB9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{913F85E3-5A80-48C8-B569-526DE61EB9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{913F85E3-5A80-48C8-B569-526DE61EB9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C2FCE86-A71D-463C-8477-4ED48E5321C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2FCE86-A71D-463C-8477-4ED48E5321C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2FCE86-A71D-463C-8477-4ED48E5321C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2FCE86-A71D-463C-8477-4ED48E5321C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256A4843-21C8-4A42-8BA0-3E32C8F0C0C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256A4843-21C8-4A42-8BA0-3E32C8F0C0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256A4843-21C8-4A42-8BA0-3E32C8F0C0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256A4843-21C8-4A42-8BA0-3E32C8F0C0C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E731932-E89E-4803-8134-E52DCDD9899D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E731932-E89E-4803-8134-E52DCDD9899D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E731932-E89E-4803-8134-E52DCDD9899D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E731932-E89E-4803-8134-E52DCDD9899D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{913F85E3-5A80-48C8-B569-526DE61EB9F0} = {80391BF4-AFB8-4B76-B269-E2E67B1C7EC1}
+		{6C2FCE86-A71D-463C-8477-4ED48E5321C8} = {CD4BAC64-668C-4C25-BA64-773E4B6DDD80}
+		{256A4843-21C8-4A42-8BA0-3E32C8F0C0C5} = {9B7BBE73-D2D1-4178-B096-6FD2B34CE9A5}
+		{5E731932-E89E-4803-8134-E52DCDD9899D} = {265EBD6C-9735-4BA4-A156-1DF2697D0646}
+		{60EA690D-EFFB-48BA-83CB-3EE9FF687490} = {80391BF4-AFB8-4B76-B269-E2E67B1C7EC1}
+		{4C44F220-7742-452C-AEFD-7EA5B1DE83B2} = {80391BF4-AFB8-4B76-B269-E2E67B1C7EC1}
+		{48940587-88D7-4302-ABFD-0408486E5C92} = {CD4BAC64-668C-4C25-BA64-773E4B6DDD80}
+		{09F2666F-5C1F-465F-9811-8834C3A2AF58} = {9B7BBE73-D2D1-4178-B096-6FD2B34CE9A5}
+		{6BB3552A-9D46-45D9-8452-8BDC34514335} = {9B7BBE73-D2D1-4178-B096-6FD2B34CE9A5}
+		{155759C3-6327-4739-8EB5-2D3144559C14} = {9B7BBE73-D2D1-4178-B096-6FD2B34CE9A5}
+		{A946E458-A436-4FDD-9353-2584F7D6BC71} = {9B7BBE73-D2D1-4178-B096-6FD2B34CE9A5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0721A1F-6F64-4E87-8B3E-40AA7CA4A11E}
+	EndGlobalSection
+EndGlobal

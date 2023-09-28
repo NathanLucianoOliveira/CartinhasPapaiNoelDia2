@@ -1,0 +1,20 @@
+[
+  {
+    "NomeCrianca": "Ana",
+    "Endereco": "Rua das Flores, 123",
+    "IdadeCrianca": 8,
+    "TextoCarta": "Querido Papai Noel, eu gostaria de ganhar uma boneca e um livro de histórias."
+  },
+  {
+    "NomeCrianca": "Pedro",
+    "Endereco": "Avenida dos Brinquedos, 456",
+    "IdadeCrianca": 7,
+    "TextoCarta": "Papai Noel, por favor, traga-me um carrinho de controle remoto e alguns quebra-cabeças."
+  },
+  {
+    "NomeCrianca": "Laura",
+    "Endereco": "Rua dos Doces, 789",
+    "IdadeCrianca": 5,
+    "TextoCarta": "Querido Papai Noel, eu adoraria ganhar um urso de pelúcia e um conjunto de lápis de cor."
+  }
+]
